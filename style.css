@@ -10,6 +10,7 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 }
 
 #navbar {
@@ -21,31 +22,40 @@ html {
     margin: 1rem;
     border-radius: 1rem;
     background-color: rgba(127, 255, 212, 0.266);
-}
-
-header{
-    position: sticky;
-    top: 1rem;
-}
-
-#navbar{
     height: 30px;
     align-items: center;
+    width: 95%;
 }
+
+header {
+    position: sticky;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#nav-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
 #navbar a {
     color: rgb(178, 244, 244);
     text-decoration: none;
     font-weight: 600;
-    font-size: 24px;
-
+    font-size: 1rem;
 }
 
-.navele:hover{
+.navele:hover {
     transform: scale(1.25);
 }
 
 .window {
-    height: 95%;
+    height: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -59,23 +69,20 @@ header{
     image-orientation: flip;
     border-radius: 50%;
     background-image: url(/Profile/pictures/Profile_Pic.jpg);
-    box-shadow: 0 0px 50px 10px rgb(0, 128, 128);
+    box-shadow: 0 0 5rem 1rem rgb(0, 128, 128);
     transition: box-shadow 1s infinite ease-in-out;
 }
 
 #detail {
     font-size: x-large;
     color: rgba(242, 115, 170, 0.888);
+    max-width: 50%;
+    min-width: 30%;
 }
 
 #nameplate {
     font-size: 5rem;
     color: bisque;
-}
-
-.connection{
-    background-color: rgba(240, 248, 255, 0.363);
-    border-radius: 10px
 }
 
 #skill {
@@ -85,7 +92,6 @@ header{
     justify-content: center;
 }
 
-
 #img_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -93,9 +99,86 @@ header{
     row-gap: 30px;
     column-gap: 30px;
 }
-    
 
 .skill-img {
-    height: 5rem;
-    width: 5rem;
+    padding: 1rem;
+    height: 8rem;
+    width: auto;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#contact_container {
+    color: azure;
+    background-color: bisque;
+}
+
+#about {
+    background-color: wheat;
+}
+
+.footer{
+    font-size: x-large; 
+    width : 50%;
+    color: rgb(54, 69, 79); 
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact{
+    height: 45%;
+    background-color: bisque;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#copyright{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    width: 100%;
+    min-width: 30%;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(127, 255, 212, 0.266);
+    height: 20px;
+}
+@media (max-width: 600px) {
+    #nav-container,#home_container {
+        width : 500px;
+    }
+
+    #nameplate {
+        font-size: 3rem;
+        color: bisque;
+    }
+    #photo {
+        height: 10rem;
+        width: 10rem;
+    }
+    #detail {
+        align-content: center;
+    }
+    #name_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    #img_container {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
