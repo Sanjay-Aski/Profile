@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+topic{
+    list-style-type: none;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+topic:hover{
+    color: white;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.3);
+}
