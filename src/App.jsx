@@ -10,7 +10,7 @@ function App(){
  
   return (
     <>
-    <div className='dark:bg-gray-900' >
+    <div className='bg-white dark:bg-gray-900' >
     <Navbar/>
     <Profile />
     <Skills/>

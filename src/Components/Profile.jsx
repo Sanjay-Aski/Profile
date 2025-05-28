@@ -32,11 +32,11 @@ function Profile() {
   }, [index, isDeleting, fullName]);
 
   return (
-    <div className="w-full min-h-screen dark:bg-gray-900 flex items-center justify-center p-4">
+    <div className="w-full min-h-screen flex items-center justify-center p-4">
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8 max-w-5xl w-full">
         {/* Profile Image */}
         <img
-          src="Public/Images/Profile_Pic.jpg"
+          src="Images/Profile_Pic.jpg"
           alt="Profile Photo"
           className="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-amber-500 shadow-xl"
         />

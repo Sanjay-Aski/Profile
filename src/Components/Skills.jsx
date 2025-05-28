@@ -6,7 +6,7 @@ const skillsData = [
   {
     id: 1,
     skillName: "JavaScript",
-    imageSrc: "Public/Images/skills/Javascript.png",
+    imageSrc: "Images/Skills/Javascript.png",
     description: "Proficient in modern JavaScript (ES6+) for front-end and back-end development.",
     learningSource: `Learned from the Youtube channel Named \"Apna College\".`,
     reasonForLearning: "As the language of the web, JavaScript was essential to learn for creating interactive and dynamic web applications.",
@@ -16,7 +16,7 @@ const skillsData = [
   {
     id: 2,
     skillName: "React",
-    imageSrc: "Public/Images/skills/React.png", 
+    imageSrc: "Images/Skills/React.png", 
     description: "Building dynamic and responsive user interfaces with React and its ecosystem.",
     learningSource: "Official React documentation, YouTube tutorials, and hands-on projects.",
     reasonForLearning: "To create modern, component-based UIs with efficient state management.",
@@ -26,7 +26,7 @@ const skillsData = [
   {
     id: 3,
     skillName: "Node.js",
-    imageSrc: "Public/Images/skills/Node.png", 
+    imageSrc: "Images/Skills/Node.png", 
     description: "Developing scalable server-side applications and APIs with Node.js and Express.",
     learningSource: " Node.js documentation, and YouTube tutorials.",
     reasonForLearning: "To build efficient backend services using JavaScript and unify my tech stack.",
@@ -36,7 +36,7 @@ const skillsData = [
   {
     id: 4,
     skillName: "HTML5 & CSS3",
-    imageSrc: "Public/Images/skills/HtmlCss.png", 
+    imageSrc: "Images/Skills/HtmlCss.png", 
     description: "Crafting semantic HTML and modern CSS for well-structured and styled web pages.",
     learningSource: "Online tutorials (W3Schools, MDN), and building projects.",
     reasonForLearning: "Essential for creating the structure and styling of web pages.",
@@ -46,7 +46,7 @@ const skillsData = [
   {
     id: 5,
     skillName: "Django FrameWork",
-    imageSrc: "Public/Images/skills/Django.png",
+    imageSrc: "Images/Skills/Django.png",
     description: "Building secure and scalable web applications using the Django web framework with Python.",
     learningSource: "YouTube tutorials (CodeWithHarry, Corey Schafer) and official Django documentation.",
     reasonForLearning: "Learned for the Winter Intership and benefit from Django’s built-in features.",
@@ -56,7 +56,7 @@ const skillsData = [
   {
     id: 6,
     skillName: "Git & GitHub",
-    imageSrc: "Public/Images/skills/Github.png",
+    imageSrc: "Images/Skills/Github.png",
     description: "Version control and collaborative development using Git and GitHub for code management and teamwork.",
     learningSource: "YouTube tutorials, and hands-on experience.",
     reasonForLearning: "To manage code changes effectively and collaborate with others.",
@@ -66,7 +66,7 @@ const skillsData = [
   {
     id: 7,
     skillName: "Python",
-    imageSrc: "Public/Images/skills/Python.png",
+    imageSrc: "Images/Skills/Python.png",
     description: "General-purpose programming language used for web development, scripting, and automation.",
     learningSource: "Apna College, Python documentation, and practice on coding platforms.",
     reasonForLearning: "Versatile and beginner-friendly language used across many domains.",
@@ -76,7 +76,7 @@ const skillsData = [
   {
     id: 8,
     skillName: "MySql",
-    imageSrc: "Public/Images/skills/mysql.png",
+    imageSrc: "Images/Skills/mysql.png",
     description: "Managing relational databases using MySQL for efficient data storage, retrieval, and manipulation.",
     learningSource: "YouTube (Telusko, Apna College), MySQL documentation.",
     reasonForLearning: "To manage structured data and integrate with backend services.",
@@ -86,7 +86,7 @@ const skillsData = [
   {
     id: 9,
     skillName: "Java",
-    imageSrc: "Public/Images/skills/java.png",
+    imageSrc: "Images/Skills/java.png",
     description: "Object-oriented programming language commonly used for backend systems and Data Structures & Algorithms (DSA).",
     learningSource: "Apna College and practice on platforms like LeetCode and GFG.",
     reasonForLearning: "Strongly typed language ideal for learning OOP and DSA.",
@@ -96,7 +96,7 @@ const skillsData = [
   {
     id: 10,
     skillName: "Problem Solving",
-    imageSrc: "Public/Images/skills/Graphs.png",
+    imageSrc: "Images/S kills/Graphs.png",
     description: "Developing efficient solutions using algorithms and data structures to tackle coding problems and challenges.",
     learningSource: "LeetCode and CodeForces.",
     reasonForLearning: "To improve logical thinking and prepare for technical interviews.",

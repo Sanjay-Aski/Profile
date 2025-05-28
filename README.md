@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website built with **React** and **TailwindCSS** to showcase my skills, experiences, and projects.
 
-![](Public/Images/Profile_Pic.jpg)
+![](Images/Profile_Pic.jpg)
 
 ---
 
