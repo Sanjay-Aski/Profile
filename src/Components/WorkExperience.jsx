@@ -40,7 +40,7 @@ function WorkExperience() {
             <div key={exp.id} className={`mb-12 flex md:items-center w-full ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
               <div className="md:w-1/2"></div>
               <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:pl-8' : 'md:pr-8'} relative`}>
-                <div className="md:absolute left-1/2 top-1/2 transform md:-translate-x-1/2 md:-translate-y-1/2 w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center text-white text-xl shadow-lg mb-4 md:mb-0">
+                <div className="md:absolute left-1/2  transform md:-translate-x-1/2 md:-translate-y-1/2 w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center text-white text-xl shadow-lg mb-4 md:mb-0">
                   {exp.icon}
                 </div>
                 <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700">
