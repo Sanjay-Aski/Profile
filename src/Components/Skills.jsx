@@ -96,7 +96,7 @@ const skillsData = [
   {
     id: 10,
     skillName: "Problem Solving",
-    imageSrc: "Images/S kills/Graphs.png",
+    imageSrc: "Images/Skills/Graphs.png",
     description: "Developing efficient solutions using algorithms and data structures to tackle coding problems and challenges.",
     learningSource: "LeetCode and CodeForces.",
     reasonForLearning: "To improve logical thinking and prepare for technical interviews.",

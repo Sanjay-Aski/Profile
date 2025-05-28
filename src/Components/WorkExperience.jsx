@@ -3,25 +3,25 @@ import React from 'react';
 const experiences = [
   {
     id: 1,
-    role: "Software Developer Intern",
-    company: "Tech Solutions Inc.",
-    duration: "June 2023 - Aug 2023",
+    role: "Django Developer Intern",
+    company: "V.E.S.I.T",
+    duration: "Dec 2024 - Feb 2024",
     details: [
-      "Developed and maintained web applications using React and Node.js.",
-      "Collaborated with a team of 5 developers on various projects.",
-      "Gained experience in Agile methodologies and version control (Git)."
+      "Developed and maintained web applications using Django Framework and Bootstrap.",
+      "Collaborated with a team of 5 developers on a projects.",
+      "Gained experience in Agile methodologies and version control (Git).",
+      "Database Interaction using Postgressql and AWS"
     ],
-    icon: "💼" // Example icon
+    icon: "💼"
   },
   {
     id: 2,
-    role: "Freelance Web Developer",
-    company: "Self-Employed",
-    duration: "Jan 2022 - May 2023",
+    role: "Cross - Domain Visualization",
+    company: "V.E.S.I.T",
+    duration: "May 2025 - present",
     details: [
-      "Designed and built responsive websites for small businesses.",
-      "Managed client communication, project timelines, and deliverables.",
-      "Utilized HTML, CSS, JavaScript, and WordPress."
+      "Learning about Transfer Learning Evaluation",
+      
     ],
     icon: "💻"
   }

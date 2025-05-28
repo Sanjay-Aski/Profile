@@ -3,8 +3,8 @@ import React from 'react';
 const projectData = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce website with product listings, cart functionality, and user authentication. Built with MERN stack.",
+    title: "SchoolTrack - R.I Vidya Mandir",
+    description: "It is the second Year Field Project , We build a Parent Teacher communication ,which help parent To track the student progress",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     liveLink: "#",
     repoLink: "#"
