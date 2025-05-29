@@ -32,7 +32,7 @@ function Profile() {
   }, [index, isDeleting, fullName]);
 
   return (
-    <div className="w-full min-h-screen flex items-center justify-center p-4">
+    <div id="home" className="w-full min-h-screen flex items-center justify-center p-4">
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8 max-w-5xl w-full">
         {/* Profile Image */}
         <img
