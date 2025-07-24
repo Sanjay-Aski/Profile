@@ -6,6 +6,7 @@ import WorkExperience from './Components/WorkExperience.jsx';
 import Projects from './Components/Projects.jsx';
 import Contact from './Components/Contact.jsx';
 import Skills from './Components/Skills.jsx';
+import Education from './Components/Education.jsx';
 function App(){
  
   return (
@@ -16,6 +17,7 @@ function App(){
     <Skills/>
     <WorkExperience/>
     <Projects/>
+    <Education/>
     <Contact/>
     {/* <div className='m-10 h-screen' >Sanjay</div> */}
     <FloatingWidget />
