@@ -21,7 +21,10 @@ const experiences = [
     duration: "May 2025 - present",
     details: [
       "Learning about Transfer Learning Evaluation",
-      
+      "Trained a model for the HAR70+ on sensor data and tested on mobile dataset",
+      "Accurracy achieved of 91%",
+      "Aim was to create the Visualization of the Transfer Learning" ,
+      "Objective was to make Easier the understanding and Working of transfer Learningwith visualization"
     ],
     icon: "💻"
   }
