@@ -22,8 +22,8 @@ function Contact() {
           <div className="space-y-6 mb-10">
             <div className="flex items-center justify-center md:justify-start space-x-3">
               <FaEnvelope className="text-amber-500 text-2xl" />
-              <a href="mailto:sanjay.aski6553@gmail.com" className="text-lg text-amber-600 dark:text-amber-400 hover:underline">
-                sanjay.aski6553@gmail.com
+              <a href="mailto:sanjayaski6553@gmail.com" className="text-lg text-amber-600 dark:text-amber-400 hover:underline">
+                sanjayaski6553@gmail.com
               </a>
             </div>
             <div className="flex items-center justify-center md:justify-start space-x-3">
